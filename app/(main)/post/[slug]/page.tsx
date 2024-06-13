@@ -43,7 +43,7 @@ const Page: React.FC<PageProps> = ({ params }) => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`http://127.0.0.1:3001/api/posts/${slug}`);
+        const response = await fetch(`https://safety.akutegar.com/posts/${slug}`);
         const data = await response.json();
         setPost(data);
         setLoading(false);
@@ -68,7 +68,7 @@ const Page: React.FC<PageProps> = ({ params }) => {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:3001/api/posts/${slug}/comments`,
+        `https://safety.akutegar.com/api/posts/${slug}/comments`,
         {
           method: "POST",
           headers: {

@@ -40,7 +40,7 @@ export default function Home() {
   }, []);
   const fetchPosts = async () => {
     try {
-      const response = await axios.get("http://127.0.0.1:3001/api/posts");
+      const response = await axios.get("https://safety.akutegar.com/api/posts");
       setPosts(response.data);
     } catch (error) {
       console.error("Error fetching posts:", error);

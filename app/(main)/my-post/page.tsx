@@ -31,7 +31,7 @@ function Page() {
 
     try {
       const response = await axios.get(
-        `http://127.0.0.1:3001/api/posts/me?userId=${userId}`
+        `https://safety.akutegar.com/api/posts/me?userId=${userId}`
       );
       setPosts(response.data);
     } catch (error) {

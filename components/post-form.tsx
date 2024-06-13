@@ -36,7 +36,7 @@ const PostForm: React.FC<PostFormProps> = ({ guestId, onPostCreated }) => {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:3001/api/posts",
+        "https://safety.akutegar.com/api/posts",
         {
           content,
           guestId,

@@ -8,7 +8,7 @@ function Stats() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('http://127.0.0.1:3001/api/posts/statics');
+        const response = await fetch('https://safety.akutegar.com/api/posts/statics');
         const data = await response.json();
         setTotalPosts(data.totalPosts);
         setHateSpeechPosts(data.hateSpeechPosts);
