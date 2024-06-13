@@ -43,7 +43,7 @@ const Page: React.FC<PageProps> = ({ params }) => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`https://safety.akutegar.com/posts/${slug}`);
+        const response = await fetch(`https://safety.akutegar.com/api/posts/${slug}`);
         const data = await response.json();
         setPost(data);
         setLoading(false);
