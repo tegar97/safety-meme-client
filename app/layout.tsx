@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SafetyMeme - The best memes for your safety",
-  description:   "SafetyMeme is a collection of the best memes for your safety. We have a wide range of memes that will make you laugh and keep you safe. Check out our collection now!",
+  title: "SafetyTweet - The best tweets for your safety",
+  description: "SafetyTweet is a collection of the best tweets for your safety. We have a wide range of tweets that will make you laugh and keep you safe. Check out our collection now!",
 };
 
 export default function RootLayout({

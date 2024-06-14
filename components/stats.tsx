@@ -24,8 +24,8 @@ function Stats() {
     <div className="pl-4 xl:flex flex-col gap-4 sm:hidden">
       <h2 className="text-lg font-medium">Statistics</h2>
       <ul>
-        <li className='text-sm'>🥳 Total Memes: {totalPosts}</li>
-        <li className='text-sm'>🚫 Non-Safe Memes Blocked: {hateSpeechPosts}</li>
+        <li className='text-sm'>🥳 Total Tweet: {totalPosts}</li>
+        <li className='text-sm'>🚫 Non-Safe Tweet Blocked: {hateSpeechPosts}</li>
       </ul>
     </div>
   );
