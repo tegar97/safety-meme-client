@@ -22,7 +22,7 @@ function Sidebar() {
     <header className="sidebar sticky top-0 left-0 h-full overflow-y-auto pr-4">
       <div className="flex items-center justify-between">
         <h1 className="font-semibold">
-          <Link href="/">SafeyMeme</Link>
+          <Link href="/">SafeyTweet</Link>
         </h1>
         <button
           className="md:hidden p-2"
